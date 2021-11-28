@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Models</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #333;
+        }
+
+        /* .myClass {
+            background-color: lightcoral;
+            border-width: 1px;
+            border-color: blue;
+            border-style: solid;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 30px;
+            margin-bottom: 100px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-right: 150px;
+            padding-left: 100px;
+        }
+
+        .content {
+            background-color: rgb(175, 253, 253);
+            border-width: 2px;
+            border-color: red;
+            border-style: dashed;
+            margin-top: 100px;
+            padding-top: 120px;
+            padding-bottom: 10px;
+            padding-left: 120px;
+            padding-right: 30px;
+            text-align: center;
+            width: 50px;
+            overflow: hidden;
+        } */
+
+        .myClass {
+            /* margin: 10px 100px 50px 200px ; All four Margins in Single Line top right bottom left */
+            background-color: lightcoral;
+            /* margin: 100px 300px ; top-bottom right-left */
+            /* margin: 20px; */
+            /* margin: 100px 300px 20px ; top right-left bottom */
+            /* padding: 50px 140px; */
+            /* width: 500px; */
+            /* height: 300px; */
+        }
+        div{
+            padding: 20px;
+        }
+
+        .top-boat {
+            background-color: gray;
+            width: 30%;
+            float: left;
+            height: 100px;
+            
+        }
+
+        .bottom-boat {
+            background-color: rgb(83, 0, 0);
+            /* width: 1000px; */
+            width: 30%;
+            color: white;
+            float: right;
+            border-radius: 100%;
+        }
+
+        .third-boat{
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Margin  -->
+    <!-- Padding  -->
+    <!-- Content -->
+    <!-- Border  -->
+
+
+    <!-- <h3>Box Model</h3> -->
+
+    <!-- <div id="myClass" class="myClass ">
+        <p class="content">Huzaifa</p>
+    </div>
+    <p>I am under divs</p> -->
+
+    <div class="top-boat">
+        My Top Boat
+    </div>
+
+
+    <div class="bottom-boat">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste unde, alias ea tempore vero libero duci
+    </div>
+
+    <div class="third-boat">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate esse quam expedita voluptatem ad ea perspiciatis consequuntur, aspernatur sapiente distinctio perferendis et pariatur libero eius adipisci obcaecati! Laborum, dignissimos iste!
+    </div>
+
+</body>
+
+</html>
